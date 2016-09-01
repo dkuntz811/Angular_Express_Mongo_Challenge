@@ -11,6 +11,6 @@ heroApp.config(['$routeProvider', function ($routeProvider){
 			controller: "displayController"
 		})
 		.otherwise({
-			redirecTo: "/heros"
+			redirecTo: "/index"
 		})
 }]);
